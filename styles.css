@@ -1,0 +1,27 @@
+@font-face {
+    font-family: alice;
+    src: url(font/alice.ttf);
+}
+
+* {
+    font-family: alice;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#cabinet {
+    display: none;
+}
+
+#sectlinks {
+    text-align: center;
+    font-size: 24px;
+}
