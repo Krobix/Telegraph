@@ -26,6 +26,15 @@ h2 {
     font-size: 24px;
 }
 
+.sectbody {
+    font-size: 24px;
+    width: 50%;
+    border-style: dashed;
+    border: 3px solid black;
+    border-color: black;
+    word-wrap: break-word;
+}
+
 /*
 #canv {
     height: 75%;
