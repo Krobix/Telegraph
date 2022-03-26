@@ -29,10 +29,47 @@ h2 {
 .sectbody {
     font-size: 24px;
     width: 50%;
-    border-style: dashed;
-    border: 3px solid black;
-    border-color: black;
     word-wrap: break-word;
+    clear: both;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.imgr {
+    float: right;
+    clear: right;
+    width: 50%;
+    height: auto;
+}
+
+.imgl {
+    float: left;
+    clear: left;
+    width: 50%;
+    height: auto;
+}
+
+.sectr {
+    text-align: left;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+
+.sectl {
+    text-align: left;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.super {
+    width:100%;
+    clear: both;
+}
+
+#hymap {
+    clear: both;
 }
 
 /*
